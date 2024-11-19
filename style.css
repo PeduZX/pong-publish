@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    background-color: #f7e7a0;
+}
+
+h1, h3 {
+    margin-left: 94.7vh;
+    color: black;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 4px;
+    margin-top: -8vh;
+    margin-left: 45vw;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+h4{
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 1100px;
+    height: 520px;
+    border: 2px solid black;
+    border-radius: 2vh;
+    margin: 0 auto; 
+    background-image: url("imgs/mesa.jpg");
+}
+
+.raquete1, .raquete2, .bola {
+    position: absolute;
+    width: 6vw;
+    height: 10vw;
+}
+
+.raquete1 {
+    background-image: url("./imgs/raquete-azul.png");
+    width: 9vw;
+    height: 9vw;
+    background-size: cover;
+    display: block;
+}
+
+.raquete2 {
+    background-image: url('./imgs/raquete-rosa.png');
+    width: 9vw;
+    height: 9vw;
+    float: inline-end;
+    margin-left: 2.5vw;
+    background-size: cover;
+    display: block;
+}
+
+.bola {
+    background-image: url("./imgs/bola.png");
+    background-size: cover;
+    width: 40px;
+    height: 40px; 
+}
+
+#play, #pause{
+    margin-top: 20px;
+    height: 60px;
+    width: 90px;
+    background-color: rgb(177, 41, 41);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+}
+#play img{
+    width: 25px;
+    height: 25px;
+}
+#pause img{
+    width: 25px;
+    height: 25px;
+}
+#play {
+    margin-left: 42.2vw;
+    margin-right: 5vh;
+}
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+}
+
+#name{
+    float: inline-start;
+    display: inline;
+    margin-left: 6vh;
+    font-size: 45px;
+    margin-top: 5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(177, 41, 41);
+}
+#placar{
+    margin-left: 97vh;
+    
+}
+#bola1{
+    display: inline-block;
+    width: 1.6vw;
+    margin-top: 1vh;
+    margin-left: -28.1vh;
+}
+#bola2{
+    display: inline-block;
+    width: 1.6vw;
+    margin-top: 7.8vh;
+    margin-left: 13vh;
+}
+.linha{
+    background-image: url("imgs/linha.png");
+    width: 5vw;
+    height: 39.2vw;
+    position: relative;
+    margin-left: 72vh;
+}
+
+#fotoplacar{
+    width: 18vh;
+    display: inline-block;
+    height: 12vh;
+    margin-left: 92vh;
+    margin-top: -10vh;
+}
